@@ -19,12 +19,12 @@ const Home = () => {
 					</div>
 				</div>
 
-				<div>
+				<div >
 					<Jumbotron/>
 				</div>
 
 				<div>
-					<div class="row mx-4 mt-3">
+					<div class="row mx-3 mt-3 mb-3 gap-4">
 						<div className="col">
 							<Card/>
 						</div>
