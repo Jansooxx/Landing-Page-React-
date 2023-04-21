@@ -1,16 +1,61 @@
 import React from "react";
 import Card from "./Card.jsx";
 import Navs from "./Navs.jsx";
+import Jumbotron from "./Jumbotron.jsx";
+import Footer from "./Footer.jsx";
 
 
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
+		<>
+			<div className="contariner-fluid  bg-dark">
 
-			<Navs/>
-			<Card/>
-		</div>
+				<div className="bg-light">
+
+				<div className="row">
+					<div className="">
+						<Navs/>
+					</div>
+				</div>
+
+				<div>
+					<Jumbotron/>
+				</div>
+
+				<div>
+					<div class="row mx-4 mt-3">
+						<div className="col">
+							<Card/>
+						</div>
+						<div className="col">
+							<Card/>
+						</div>
+						<div className="col">
+							<Card/>
+						</div>
+						<div className="col">
+							<Card/>
+						</div>
+					</div>
+				</div>
+
+				<div className="Footer bg-dark">
+					<Footer/>
+				</div>
+
+			</div>
+
+					
+				</div>
+				
+			
+			
+		
+		
+		
+		
+		</>
 	);
 };
 
